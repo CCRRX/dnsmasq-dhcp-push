@@ -11,7 +11,7 @@ If youre running a classic dnsmasq, edit /etc/dnsmasq.conf and add this line:<br
 `dhcp-script=/var/dnsmasq/push.sh` <br>
 IF youre running a OpenWRT Router, login via SSH and edit the /etc/config/dhcp and add under the "config dnsmasq" line this:<br>
 `option dhcp-script '/var/dnsmasq/push.sh'`<br>
-3: Uploade the script and dont forget to fill in our keys!<br>
+3: Uploade the script and dont forget to fill in your keys!<br>
 `vi /var/dnsmasq/push.sh`<br>
 (maybe you need to create the folder dnsmasq at var!)<br>
 4: Make it executable:<br>
@@ -22,6 +22,6 @@ Now you should see a notificaton on your phone :)<br>
 6: Restart dnsmasq:<br>
 `/etc/init.d/dnsmasq reload`<br>
 (if this fails `/etc/init.d/dnsmasq restart`)<br>
-7: Now you should get a lot of noifications on your phone for every device thats conneted :><br>
+7: Now you should get a lot of noifications on your phone for every device that connects :><br>
 
-8: If you see me, please give me a beer or stuff like this ;D
+8: If you like this, please give me a beer or stuff like this when you see me ;D
